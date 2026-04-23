@@ -142,7 +142,7 @@
             
 //         }
 //     }
-//     return {}
+//     return {} // yeh isliye  h ku ki ans varna undefined return karega. is se better empty array de
 // }
 // console.log(mostproduct(products))
 

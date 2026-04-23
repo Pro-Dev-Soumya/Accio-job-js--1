@@ -157,7 +157,7 @@
 //         } 
 //         else{specialchar++}
 //     }
-//     return {uppercase, lowercase , specialchar}
+//     return {uppercase, lowercase , specialchar}   // this is object
 // }
 
 // console.log(solve(str))
@@ -177,8 +177,10 @@
 //     {
 //         ans[item] = ans[item] + 1
 //     }
-//     else{ans[item] = 1}
-// }
+//     else
+//      {
+//          ans[item] = 1}
+//       }
 // console.log(ans)
 
 
