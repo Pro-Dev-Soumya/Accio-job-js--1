@@ -666,7 +666,20 @@
 
 
 
-
+// check frequency of charater
+// let str = "abcdabcddde"
+// let ans = { }
+// for(let item of str)
+// {
+//     if(ans.hasOwnProperty(item))
+//     {
+//         ans[item] = ans[item] + 1
+//     }
+//     else{
+//         ans[item] = 1
+//     }
+// }
+// console.log(ans)
 
 
 

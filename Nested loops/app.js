@@ -65,23 +65,25 @@
 
 
 
+
 //=========================SUB-ARRAY==============================
 //contious part of an array -[1, 2, 3, 4, 5]
 //[1,3,5]- is not continous
 
 
 //eg
-// let arr= [1, 2, 3, 4, 5, 6]
+//  let arr= [1, 2, 3, 4, 5, 6]
+// let ans = []
 // for(let i = 0; i<arr.length; i++)
 // {
-//     let ans = []
-//     for(let j = i; j<arr.length; j++)
-//     {
-//         ans.push(arr[j])
-//         console.log(ans)
+     
+    // for(let j = i; j<arr.length; j++)
+    // {
+        // ans.push(arr[i])
+        // console.log(ans)
         
-//     }
-//     //break
+    // }
+    // break
 // }
 
 
@@ -89,14 +91,17 @@
 
 //====================SUB-STRING============================================
 // let str = "Soumya"
+// let ans = ""
 // for(let i=0; i<str.length; i++)
 // {
-//     let ans = ""
-//     for(let j = i; j<str.length; j++)
-//     {
-//         ans+=str[j]
-//         console.log(ans)
-//     }
+    
+    // for(let j = i; j<str.length; j++)
+    // {
+        
+        // ans+=str[i]
+        // console.log(ans)
+    // }
+   
 // }
 
 
@@ -105,6 +110,7 @@
 
 //print star in square
 // let n = Number(prompt("take a number"))
+
 // for(let i = 0; i<n; i++)
 // {
 //     let ans = ""
@@ -113,6 +119,7 @@
 //         ans +=" *"
 //     }
 //     console.log(ans)
+    
 // }
 
 
@@ -281,22 +288,22 @@
 
 
 // print hollow square check console pattern\
-let n= 5
-for(let i=1; i<=n; i++)
-{
-    let str = ""
-    for(let j=1; j<=n; j++)
-    {
-        if(i==j||i==n||j==n)
-        {
-            str+=" *"
-        }
-        else{
-            str+=" "
-        }
-    }
-}
-console.log(str)
+// let n= 5
+// for(let i=1; i<=n; i++)
+// {
+//     let str = ""
+//     for(let j=1; j<=n; j++)
+//     {
+//         if(i==j||i==n||j==n)
+//         {
+//             str+=" *"
+//         }
+//         else{
+//             str+=" "
+//         }
+//     }
+// }
+// console.log(str)
 
 
 
