@@ -22,6 +22,8 @@
 // console.log(5 == "5") // true because it become number
 // console.log(5 === "5") // false
 // console.log(typeof NaN) // number
+// console.log(5!=5,"pp")
+console.log(true+false)
 
 
 // console.log(Boolean(0)) // false
